@@ -6,6 +6,15 @@ Si los números son iguales, debe retornar "Los números son iguales".
 */
 function mayorDeDos(num1, num2) {
     // TODO: Resolver
+    if(num1 > num2){
+        return num1 + " es mayor a " + num2
+    }
+    else if(num2 > num1){
+        return num2 + " es mayor a " + num1
+    }
+    else{
+        return "Los números son iguales."
+    }
 }
 
 console.log("-----------------------------------")
