@@ -5,6 +5,13 @@ retorne "El número es par" si el número es divisible entre 2, o "El número es
 */
 function esPar(numero) {
     // TODO: Resolver
+    mpr = numero % 2;
+    if(mpr == 0){
+        return "El número es par"
+    }
+    else {
+        return "El número es impar"
+    }
 }
 
 console.log("-----------------------------------")
