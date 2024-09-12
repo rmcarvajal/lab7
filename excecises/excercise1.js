@@ -6,6 +6,10 @@ Si el nombre es vacío o no se proporciona, el mensaje debe ser "Hola, desconoci
 */
 function saludar(nombre) {
     // TODO: Resolver
+    if(!nombre){
+        return "Hola, desconocido"
+    }
+    return "Hola, " + nombre
 }
 console.log("-----------------------------------")
 console.log("EJERCICIO 1")
