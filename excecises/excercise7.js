@@ -8,6 +8,13 @@ Si cumple con ambas, retornar "Contraseña válida", de lo contrario "Contraseñ
 */
 function validarContrasena(contrasena) {
     // TODO: Resolver
+    const numcheck = /\d/;
+    if (contrasena.length >= 8 && numcheck.test(contrasena)){
+        return "Contraseña válida"
+    }
+    else {
+        return "Contraseña inválida"
+    }
 }
 
 console.log("-----------------------------------")
