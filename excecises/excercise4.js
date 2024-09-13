@@ -7,6 +7,26 @@ Recuerde que "No se puede dividir entre 0".
 */
 function calculadora(operacion, num1, num2) {
     // TODO: Resolver
+    switch(operacion){
+        case "suma":
+            return num1 + num2;
+        break;
+        case "resta":
+            return num1 - num2;
+        break;
+        case "division":
+            if(num2 === 0){
+                return "No se puede dividir entre 0"
+            }
+            else {
+                return num1 / num2;
+            }
+        break;
+        case "multiplicacion":
+            return num1 * num2;
+        break;
+    }
+        
 }
 
 console.log("-----------------------------------")
